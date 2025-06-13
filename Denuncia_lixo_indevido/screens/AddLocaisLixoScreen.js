@@ -5,7 +5,7 @@ import * as Location from "expo-location";
 import * as ImagePicker from "expo-image-picker";
 import styles from "../styles/styles";
 
-const API_URL = "http:// 192.168.0.11:3000";
+const API_URL = "http://SEU_IP:3000";
 
 export default function AddLixoScreen({ navigation }) {
   const [nomeLocal, setNomeLocal] = useState("");
